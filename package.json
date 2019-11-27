@@ -2,8 +2,8 @@
   "name": "unofficial-nmap-web",
   "description": "An unofficial-nmap-web",
   "creator": "ericsuarez",
-  "github": "github.com/ericsuarez",
-  "version": "0.0.1",
+  "github": "github.com/haphazardhacking",
+  "version": "0.1",
   "private": true,
   "scripts": {
     "start": "sudo node app.js"
