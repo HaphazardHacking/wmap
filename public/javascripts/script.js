@@ -79,7 +79,7 @@ $( document ).ready(function() {
 
 			$( ".textc" ).html(respuesta);
 			if(!rej)
-				$(".text").text("Scanned Success!")
+				$(".text").text("Scan Complete")
 			else{
 				$(".text").text(rej);
 			}
