@@ -76,7 +76,7 @@ router.get('/scan',function(req,res,next){
 		if(rej) res.send(rej);
 		
 		else{
-			shell.exec('nmap ' + resp + ' ' + ip + ' ' + '+oX /home/penadmin/docker_offensive_elk/_data/nmap/' + ip + '.xml',function(code,msg,err){
+			shell.exec('nmap ' + resp + ' ' + ip + ' ' + '-oX /home/penadmin/docker_offensive_elk/_data/nmap/' + ip + '.xml',function(code,msg,err){
 				if(err) res.send(JSON.stringify(err));
 				else res.send(JSON.stringify(msg));
 			});
