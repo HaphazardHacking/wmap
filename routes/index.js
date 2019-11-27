@@ -39,7 +39,7 @@ function prepare(){
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	res.render('index', { title: 'Service Nmap' });
+	res.render('index', { title: 'Wmap - Nmap Web Scanner' });
 });
 
 
