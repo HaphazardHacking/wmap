@@ -10,7 +10,7 @@ function prepare(){
 	return new Promise((res,rej) =>{
 		let resultado = "";
 		if(arguments.length == 0){
-			rej("Error no se encuentra resultado");
+			rej("Unknown error");
 		}
 
 		for (var i = 0; i < arguments.length; i++){
