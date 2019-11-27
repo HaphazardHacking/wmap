@@ -8,15 +8,8 @@
 ## Install
 
 ```bash
-  $ git clone git@github.com:ericsuarez/wmap.git
+  $ git clone https://github.com/HaphazardHacking/wmap
   $ cd wmap
   $ npm i 
   $ npm start
 ```
-
-
-## Licence
-
-
-MIT © [Eric. R. Suárez](https://ericsuarez.github.io/)
-
